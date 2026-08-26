@@ -17,15 +17,32 @@ function mergeSort(vetor){
 
     while(posEsq < vetorEsq.length && posDir < vetorDir.length){
         if(vetorEsq[posEsq] < vetorDir[posDir]){
-            vetRes.push(vetEsq[posEsq])
+            vetRes.push(vetorEsq[posEsq])
+
             posEsq++
         }else{
-            vetRes.push(vetDir[posDir])
+            vetRes.push(vetorDir[posDir])
+
             posDir++
         }
     }
+    
+    let sobra 
+    
+    if (posEsq < posDir){
+        sobra = vetorEsq.slice(posEsq)
+    
+    }else{
+        sobra = vetorDir.slice(posDir)
+    }
+
+    return [...vetRes, ...sobra]
+
 
 }
 
 let nums = [77,44,22,33,99,55,88,0,66,11]
-console.log()
+
+let numOrd = mergeSort(nums)
+
+console.log(numOrd)
