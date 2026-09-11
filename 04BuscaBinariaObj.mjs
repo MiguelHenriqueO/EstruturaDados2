@@ -22,7 +22,7 @@ function buscaBinariaObj(VetorObj, fnComp){
 
 }
 
-function compara(valorMeio, valorBusca = "IGOR"){
+function compara(valorMeio, valorBusca = "MIGUEL"){
    if (valorBusca === valorMeio.first_name) return 0
    else if (valorBusca > valorMeio.first_name) return 1
    else return -1
