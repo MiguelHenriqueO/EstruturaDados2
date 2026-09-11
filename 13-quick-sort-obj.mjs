@@ -35,7 +35,7 @@ function quickSort(vetor, fnComp, ini = 0, fim = vetor.length - 1) {
   quickSort(vetor, fnComp, div + 1, fim);
 }
 
-import { objMotoristas } from "./data/motoristas-obj-desord.mjs";
+import { objMotoristas } from "./data/motoristas-obj-desord";
 
 quickSort(
   objMotoristas,

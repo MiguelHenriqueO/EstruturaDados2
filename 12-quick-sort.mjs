@@ -39,7 +39,7 @@ quickSort(nums)
 console.log(nums)
 
 
-import {nomes} from "./data/nomes-desord.mjs"
+import {nomes} from "./data/nomes-desord"
 
 quickSort(nomes)
 

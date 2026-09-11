@@ -43,7 +43,7 @@
 
 // console.log({numsOrd})
 
-import {nomes} from "./data/nomes-desord.mjs"
+import {nomes} from "./data/nomes-desord"
 
 let nomesOrd = mergeSort(nomes)
 
