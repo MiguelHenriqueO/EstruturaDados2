@@ -68,4 +68,4 @@ console.log('Depois da remoção do 48: ', percursoREM)
 percursoREM = []
 arvore.preOrderTraversal(val => percursoREM.push(val))
 console.log(`Novo valor na raiz é: ${percursoREM[0]}`)
-
+ 
