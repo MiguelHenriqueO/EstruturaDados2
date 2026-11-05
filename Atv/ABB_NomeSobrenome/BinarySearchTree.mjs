@@ -240,4 +240,9 @@ export default class BinarySearchTree {
     // O valor procurado foi encontrado e está em root
     return root;
   }
+
+  
+
+
+
 }
